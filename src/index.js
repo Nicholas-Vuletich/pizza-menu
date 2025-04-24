@@ -68,7 +68,12 @@ function Pizza() {
 }
 
 function Header() {
-  return <h1 style={{color:"red", fontSize:"32px", textTransform:"uppercase"}}>Fast React Pizza Co.</h1>;
+  return (
+  <div>
+    <h1 style={{color:"red", fontSize:"32px", textTransform:"uppercase"}}>Fast React Pizza Co.</h1>;
+    <p>Provjera</p>;
+  </div>
+    )
 }
 
 function Menu() {

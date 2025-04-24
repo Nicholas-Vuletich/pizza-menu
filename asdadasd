@@ -1,0 +1,31 @@
+[33mcommit 20da30135a29907c6fe2163e345dd0b1366c9f19[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author:     Nikola Vuletić <nikolavuletic412@gmail.com>
+AuthorDate: Thu Apr 24 23:55:39 2025 +0200
+Commit:     Nikola Vuletić <nikolavuletic412@gmail.com>
+CommitDate: Thu Apr 24 23:55:39 2025 +0200
+
+    Test commit for GitHub contribution
+
+[33mcommit 7c95ed4be32d28225987b8b5550668dea05a230c[m
+Author:     Nikola Vuletić <nikolavuletic412@gmail.com>
+AuthorDate: Thu Apr 24 23:45:05 2025 +0200
+Commit:     Nikola Vuletić <nikolavuletic412@gmail.com>
+CommitDate: Thu Apr 24 23:45:05 2025 +0200
+
+    Added smo css to the app
+
+[33mcommit 16c2ad93e11ed92acbeafd1620b18532d51e38cd[m
+Author:     Nikola Vuletić <nikolavuletic412@gmail.com>
+AuthorDate: Thu Apr 24 03:52:48 2025 +0200
+Commit:     Nikola Vuletić <nikolavuletic412@gmail.com>
+CommitDate: Thu Apr 24 03:52:48 2025 +0200
+
+    Implement opening hours logic in footer
+
+[33mcommit e635ec2cb5302b12af79494acd7f340af28bdd2e[m
+Author:     Nikola Vuletić <nikolavuletic412@gmail.com>
+AuthorDate: Thu Apr 17 03:32:20 2025 +0200
+Commit:     Nikola Vuletić <nikolavuletic412@gmail.com>
+CommitDate: Thu Apr 17 03:32:20 2025 +0200
+
+    Initialize project using Create React App
