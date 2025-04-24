@@ -49,7 +49,7 @@ const pizzaData = [
 
 function App() {
     return (
-        <div>
+        <div className="container">
             <Header />
             <Menu />
             <Footer />
@@ -61,30 +61,32 @@ function Pizza() {
     return (
         <div>
             <img src="/pizzas/spinaci.jpg" alt="Pizza spinaci" />
-    <h2>Pizza Spinaci</h2>
-    <p>Tomato, mozarella, spinach, and ricotta cheese</p>
-    </div>
+            <h3>Pizza Spinaci</h3>
+            <p>Tomato, mozarella, spinach, and ricotta cheese</p>
+        </div>
      )
 }
 
 function Header() {
+  // const style = {color:"red", fontSize:"32px", textTransform:"uppercase"};
+  const style = {};
+
   return (
-  <div>
-    <h1 style={{color:"red", fontSize:"32px", textTransform:"uppercase"}}>Fast React Pizza Co.</h1>;
-    <p>Provjera</p>;
-  </div>
-    )
+    <header className="header">
+      <h1 style={style}>Fast React Pizza Co.</h1>
+    </header>
+  )
 }
 
 function Menu() {
   return ( 
-    <div>
+    <main className="menu">
   <h2>Our Menu</h2>
   <Pizza />
   <Pizza />
   <Pizza />
   <Pizza />
-    </div>
+    </main>
   )
 }
 
@@ -95,7 +97,9 @@ const closeHour = 22;
 const isOpen = hour >= openHour && hour <= closeHour;
 console.log(isOpen);
 
-return <footer>{new Date().toLocaleTimeString()} We're currently open</footer>
+return <footer className="footer">
+  {new Date().toLocaleTimeString()} We're currently open
+  </footer>
 
   // return React.createElement('footer', null, "We're currently open")
 }
