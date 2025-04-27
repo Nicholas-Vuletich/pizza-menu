@@ -11,4 +11,6 @@ The goal of the project is to improve my understanding of core React concepts th
 - Rendering lists
 - Conditional rendering
 
+# pizza-menu
+A simple React project showcasing a dynamic pizza menu built with components and props.
 
